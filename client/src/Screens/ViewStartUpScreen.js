@@ -14,7 +14,7 @@ const Input = ({ placeholder, name, type, value, handleChange }) => (
 
 const ViewStartUpPage = () => {
   const location = useLocation();
-  console.log(location.state.dataStartup.totalETH.toString());
+  console.log(location.state.dataStartup);
   const data = location.state.dataStartup;
 
   return (
