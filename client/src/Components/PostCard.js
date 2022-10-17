@@ -7,7 +7,7 @@ import abi from "../utils/CreateStartUp.json";
 const PostCard = () => {
   const [allStartUp, setAllStartUp] = useState([]);
 
-  const contractAddress = "0x9d565220538fd9a604c237ac222B9C4172B1015e";
+  const contractAddress = "0x53dc87D711967503BEB352Db44a097100230Dc03";
   const contractABI = abi.abi;
 
   const getStartUp = async () => {
